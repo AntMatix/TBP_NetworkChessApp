@@ -1,0 +1,17 @@
+# Upute za instalaciju
+
+1. Pokrenuti setupRequirements.sh sa sudo privilegijama 
+( ako se ne koristi linux OS, potrebno je instalirati pakete sljedećim koracima (potrebno imati python3 okruženje instalirano)
+
+1.1 Instalirati zodb3 paket naredbom pip3 install zodb3.
+1.2 Instalirati ostale pakete naredbom pip3 install -r requirements.txt
+
+2. Pokrenuti startupDB.sh za pokretanje zeo poslužitelja
+( ako se ne koristi linux OS, potrebno je pokrenuti zeo poslužitelj prema uputama s interneta na adresi localhost i priključku 2709 )
+
+3. Pokrenuti server.py datoteku za kreiranje nove igre. 
+Naredba: python3 server.py
+
+4. Pokrenuti python3 datoteke mainwhite.py i mainblack.py za prikaz ploča i početak igre
+
+
